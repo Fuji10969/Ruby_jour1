@@ -1,4 +1,6 @@
-puts "choisis un nombre : #{x=gets.chomp}"
+print "choisis un nombre : " 
+x = gets.chomp.to_i
+
 
 x.times do |i| 
     puts i + 1
