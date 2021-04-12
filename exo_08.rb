@@ -1,6 +1,6 @@
 puts "comment t'appelles-tu ?"
 
-x= "Alexandre"
+x= gets.chomp
 
 puts "Bonjour #{x} !" 
 
